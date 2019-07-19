@@ -1,7 +1,10 @@
 import React from "react"
 
-export default function NameElement(props) {
+
+const NameElement =(props) => {console.log(props)
     return (
-    <h1>PlaceHolder Name{props.name}</h1>
+    <h1>{props.name}</h1>
     )
 }
+
+export default NameElement

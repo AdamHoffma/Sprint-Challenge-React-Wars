@@ -2,6 +2,6 @@ import React from "react"
 
 export default function MassElement(props) {
     return (
-        <h1>PlaceHolder Mass</h1>
+        <h4>Mass: {props.mass}</h4>
     )
 }
